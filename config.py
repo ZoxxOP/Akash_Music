@@ -76,6 +76,11 @@ confirmer = {}
 
 # ===============================================
 
+API_URL = os.getenv("API_URL", "https://api.thequickearn.xyz") #youtube song url
+VIDEO_API_URL = os.getenv("VIDEO_API_URL", "https://api.video.thequickearn.xyz")
+API_KEY = os.getenv("30DxNexGenBots4d6508", None) # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
+
+
 START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/6borug.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/9cevdg.jpg")
 
